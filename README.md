@@ -1,17 +1,28 @@
-# fitmacro_flutter
+# FitMacroAI Flutter 🏋️‍♂️
 
-A new Flutter project.
+AI-powered fitness & macro tracking Android app built with Flutter.
 
-## Getting Started
+## Demo
+> User types "rajma chawal 1 katori" → AI returns 420 cal, 19g protein, 60g carbs, 14g fat
 
-This project is a starting point for a Flutter application.
+## Features
+- 🤖 AI-powered food analysis — just type food name, get macros instantly
+- 📊 Track 4 macros — Calories, Protein, Carbs, Fat
+- 🎯 Daily calorie goal with progress bar
+- 💾 Data persistence — food log saves across app restarts
+- 🔄 Daily auto reset — fresh start every morning
+- ✅ Onboarding flow — one-time setup
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- **Frontend:** Flutter (Android + iOS)
+- **Backend:** FastAPI + Python
+- **AI:** LLaMA 3.3 70B via Groq API
+- **Deployment:** Railway.app
+- **Storage:** SharedPreferences
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Backend
+Live API: https://web-production-f32bc.up.railway.app
+iOS Repo: https://github.com/bhatt-aditya03/FitMacroAI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Status
+✅ Complete — Flutter Android Version
